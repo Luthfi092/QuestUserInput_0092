@@ -127,8 +127,10 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
                 .height(110.dp)
                 .width(300.dp)
         ) {
-             {
-
+            Column(
+                modifier = Modifier.padding(horizontal = 12.dp, vertical = 12.dp)
+            ) {
+              
             }
         }
     }
